@@ -32,6 +32,7 @@ services:
       ORACLE_SID: "ORCLCDB"
     volumes:
       - ./goldengate-config/dirprm-standard:/u01/app/ogg/dirprm
+      - ./v_ext:/prv
 
   replicat:
     container_name: replicat
