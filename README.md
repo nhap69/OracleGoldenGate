@@ -218,7 +218,8 @@ Clean, build and run the application
 ```sh
 cd table-state
 gradle clean build run
+```
 
-### References
+## References
 
 [https://www.pilosa.com/blog/writing-a-custom-handler-for-goldengate/](https://www.pilosa.com/blog/writing-a-custom-handler-for-goldengate/)
